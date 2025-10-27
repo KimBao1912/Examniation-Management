@@ -1,0 +1,159 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: #f7f9fc;
+  color: #333;
+  margin: 0;
+}
+
+header {
+  background-color: #3949ab;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  position: relative;
+}
+
+.back-btn {
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.btn {
+  background-color: #5c6bc0;
+  color: white;
+  padding: 15px 25px;
+  margin: 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: #7986cb;
+}
+
+.question-form {
+  max-width: 600px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.question-form label {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.question-form input,
+.question-form textarea,
+.question-form select {
+  padding: 8px;
+  margin-top: 4px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.question-form button {
+  margin-top: 20px;
+}
+
+.question-table {
+  width: 90%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+.question-table th, .question-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.question-table th {
+  background-color: #e8eaf6;
+}
+
+.question-table button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.question-table .edit {
+  background-color: #4caf50;
+  color: white;
+}
+
+.question-table .delete {
+  background-color: #f44336;
+  color: white;
+}
+
+.exam {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.question-box {
+  background: white;
+  padding: 20px;
+  width: 80%;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.options button {
+  display: block;
+  width: 100%;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  background-color: #fafafa;
+  cursor: pointer;
+}
+
+.options button:hover {
+  background-color: #e8eaf6;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.submit-btn {
+  width: 100%;
+  margin-top: 15px;
+  background-color: #3949ab;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #5c6bc0;
+}

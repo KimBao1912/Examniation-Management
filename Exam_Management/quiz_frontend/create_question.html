@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Tạo câu hỏi mới</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Tạo câu hỏi</h1>
+    <a href="index.html" class="back-btn">← Trang chủ</a>
+  </header>
+
+  <main>
+    <form class="question-form">
+      <label>Nội dung câu hỏi</label>
+      <textarea placeholder="Nhập nội dung..."></textarea>
+
+      <label>Phương án A</label>
+      <input type="text" placeholder="Câu trả lời A">
+
+      <label>Phương án B</label>
+      <input type="text" placeholder="Câu trả lời B">
+
+      <label>Phương án C</label>
+      <input type="text" placeholder="Câu trả lời C">
+
+      <label>Phương án D</label>
+      <input type="text" placeholder="Câu trả lời D">
+
+      <label>Đáp án đúng</label>
+      <select>
+        <option>A</option>
+        <option>B</option>
+        <option>C</option>
+        <option>D</option>
+      </select>
+
+      <label>Chủ đề</label>
+      <input type="text" placeholder="VD: Toán, Lý, Hóa...">
+
+      <label>Mức độ (1 - 5)</label>
+      <input type="range" min="1" max="5" value="1">
+
+      <button type="submit" class="btn">Lưu câu hỏi</button>
+    </form>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

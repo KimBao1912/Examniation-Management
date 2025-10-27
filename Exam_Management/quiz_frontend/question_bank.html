@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Ngân hàng câu hỏi</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Ngân hàng câu hỏi</h1>
+    <a href="index.html" class="back-btn">← Trang chủ</a>
+  </header>
+
+  <main>
+    <table class="question-table">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Nội dung</th>
+          <th>Chủ đề</th>
+          <th>Mức độ</th>
+          <th>Đáp án đúng</th>
+          <th>Thao tác</th>
+        </tr>
+      </thead>
+      <tbody id="question-list">
+        <!-- Nội dung câu hỏi sẽ được thêm bằng JS sau -->
+        <tr>
+          <td>1</td>
+          <td>Thủ đô của Việt Nam là gì?</td>
+          <td>Địa lý</td>
+          <td>1</td>
+          <td>A</td>
+          <td>
+            <button class="edit">Sửa</button>
+            <button class="delete">Xóa</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
